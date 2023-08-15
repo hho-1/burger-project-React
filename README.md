@@ -6,4 +6,4 @@ In this project, a 4 page website has been created with the help of React Router
 
 ### Project Website
 
-https://main--hilarious-clafoutis-8651b5.netlify.app/contact
+https://main--hilarious-clafoutis-8651b5.netlify.app
