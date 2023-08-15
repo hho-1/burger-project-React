@@ -7,6 +7,7 @@ import Menu from './pages/Menu';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' exact element={<About/>} />
         <Route path='/menu' exact element={<Menu/>} />
         <Route path='/contact' exact element={<Contact/>} />
+        <Route path='*' element={<NotFound/>} />
       </Routes>
       <Footer/>
     </div>
